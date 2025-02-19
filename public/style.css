@@ -1,6 +1,14 @@
+@font-face {
+  font-family: 'YoungSerif';
+  src: url('/public/fonts/YoungSerif-Regular.woff2') format('woff2'),
+  url('/public/fonts/YoungSerif-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
-  --font-heading: system-ui, serif;
-  --font-body: system-ui, sans-serif;
+  --font-heading: 'Young Serif', system-ui;
+  --font-body: 'Young Serif', system-ui;
   --color-primary: #1d5175;
   --color-complementary: #fcf8f1;
 }
