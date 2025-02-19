@@ -3,8 +3,7 @@
   --font-body: system-ui, sans-serif;
   --color-primary: #220b38;
   --color-on-primary: #AD8DC8;
-  --color-background: #e8e8e8;
-  --color-complementary: white;
+  --color-complementary: #efe9e4;
 }
 
 *, *::after, *::before { box-sizing: border-box; } 
@@ -16,7 +15,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: var(--color-background);
+  background-color: var(--color-complementary);
   color: var(--color-primary);
 }
 
@@ -25,8 +24,9 @@ header, footer {
 }
 
 header {
-  background-color: var(--color-primary);
-  color: var(--color-on-primary);
+	h1 {
+		line-height: 1;
+	}
 }
 
 main {
@@ -35,8 +35,6 @@ main {
 }
 
 footer {
-  background-color: var(--color-primary);
-  color: var(--color-complementary);
   display: flex;
   flex-flow: row wrap;
   padding-bottom: 1rem;
@@ -61,7 +59,7 @@ footer p {
 }
 footer a,
 footer a:visited { 
-  color: var(--color-complementary);
+  // color: var(--color-complementary);
 }
 
 
