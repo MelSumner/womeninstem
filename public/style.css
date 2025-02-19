@@ -6,8 +6,8 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: white;
-  color: black;
+  background-color: #e8e8e8;
+  color: #220b38;
 }
 
 header, main, footer {
@@ -15,8 +15,10 @@ header, main, footer {
 }
 
 footer {
+  border-top: 1px solid #220b38;
   display: flex;
   justify-content: space-between;
+  padding-bottom: 0.75em;
 }
 
 main {
