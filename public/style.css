@@ -44,6 +44,10 @@ header {
 main {
   flex: 1;
   padding: 1.25em;
+  
+  article {
+    max-width: 90ch;
+  }
 }
 
 footer {
