@@ -7,8 +7,8 @@
 }
 
 :root {
-  --font-heading: 'Young Serif', system-ui;
-  --font-body: 'Young Serif', system-ui;
+  --font-heading: 'YoungSerif', system-ui;
+  --font-body: 'YoungSerif', system-ui;
   --color-primary: #1d5175;
   --color-complementary: #fcf8f1;
 }
@@ -32,13 +32,11 @@ header, footer {
 
 header {
 	h1 {
-		line-height: 1;
     margin-bottom: 0;
 	}
   p {
     margin: 0;
     padding: 0;
-    font-style: italic;
   }
 }
 
@@ -75,4 +73,14 @@ footer a:visited {
   // color: var(--color-complementary);
 }
 
+h1, h2, h3 {
+  font-family: var(--font-heading);
 
+  padding: 0;
+  line-height: 1;
+
+  & + p {
+    margin-top: 0;
+    padding-top: 0;
+  }
+}
