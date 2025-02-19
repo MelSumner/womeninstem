@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: white;
+  color: black;
+}
+
+header, footer {
+  padding: 1.25em;
+  text-align: center;
+}
+
+main {
+  flex: 1;
+  padding: 1.25em;
+}
+
+@media (min-width: 600px) {
+  header, main, footer {
+    padding: 2.5em;
+  }
+}
+
+@media (min-width: 768px) {
+  header, main, footer {
+    padding: 3.75em;
+  }
+}
+
