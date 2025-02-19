@@ -46,11 +46,12 @@ main {
   padding: 1.25em;
   
   article {
-    max-width: 90ch;
+    max-width:90ch
   }
 }
 
 footer {
+  border-top: 1px solid var(--color-primary);
   display: flex;
   flex-flow: row wrap;
   padding-bottom: 1rem;
@@ -65,7 +66,7 @@ footer p {
 }
 @media screen and (min-width: 75em) {
   footer {
-    justify-content: space-between;
+    /* justify-content: space-between; */
   }
   footer p {
     width: fit-content;
