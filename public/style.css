@@ -1,9 +1,8 @@
 :root {
   --font-heading: system-ui, serif;
   --font-body: system-ui, sans-serif;
-  --color-primary: #220b38;
-  --color-on-primary: #AD8DC8;
-  --color-complementary: #efe9e4;
+  --color-primary: #1d5175;
+  --color-complementary: #fcf8f1;
 }
 
 *, *::after, *::before { box-sizing: border-box; } 
@@ -26,7 +25,13 @@ header, footer {
 header {
 	h1 {
 		line-height: 1;
+    margin-bottom: 0;
 	}
+  p {
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+  }
 }
 
 main {
