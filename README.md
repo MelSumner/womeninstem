@@ -1,5 +1,8 @@
 # Women in STEM
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ae1640eb-2f9c-49fc-9151-44afbf772e86/deploy-status)](https://app.netlify.com/sites/women-in-stem-com/deploys)
+
+
 Seems weird that women in STEM are having their work removed from public websites. No one who contributes work to a project should have their information removed.
 
 This repository will be an open source project where anyone can contribute information about a woman in STEM.
