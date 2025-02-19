@@ -85,3 +85,11 @@ h1, h2, h3 {
     padding-top: 0;
   }
 }
+
+.underline-wave {
+  text-decoration: underline;
+  text-decoration-color: #ff6347; /* Tomato */
+  text-decoration-style: wavy;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 7px; /* the descenders were cutting it off */
+}
