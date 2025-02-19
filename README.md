@@ -29,9 +29,9 @@ To request that information is added or updated, please visit the [Issues page](
 
 This will give you the option to select an issue template that works best for your situation. Currently, there are three options:
 
-1. Add a new record
-2. Update a record
-3. Create an issue from blank
+1. Add new data
+2. Update existing data
+3. Blank issue (create a new issue from scratch)
 
 Please choose the one that works best for you.
 
