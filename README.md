@@ -12,7 +12,7 @@ There are many ways to contribute to an open source project.
 
 - Design
 - Code
-- Content
+- Content (add content, edit content)
 - Issue review
 - Pull request review
 - Quality review
@@ -37,3 +37,6 @@ Please choose the one that works best for you.
 Please fill in as much information as you are able.
 
 Thank you for contributing!
+
+![image](https://github.com/user-attachments/assets/688d9985-38f4-4455-870f-751b7e165d60)
+
