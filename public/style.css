@@ -18,6 +18,7 @@
 body {
   margin: 0;
   font-family: var(--font-body);
+  font-size: 100%;
   line-height: 1.5;
   display: flex;
   flex-direction: column;
@@ -75,9 +76,9 @@ footer a:visited {
 
 h1, h2, h3 {
   font-family: var(--font-heading);
-
   padding: 0;
   line-height: 1;
+  letter-spacing: 1px; /* maybe idk */
 
   & + p {
     margin-top: 0;
