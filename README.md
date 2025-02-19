@@ -1,4 +1,4 @@
-# womeninstem
+# Women in STEM
 
 Seems weird that women in STEM are having their work removed from public websites. No one who contributes work to a project should have their information removed.
 
