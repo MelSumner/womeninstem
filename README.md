@@ -17,11 +17,6 @@ There are many ways to contribute to an open source project.
 - Pull request review
 - Quality review
 
-## Expectations
-
-1. Submit information that can be verified.
-2. Be kind.
-
 ## Adding or updating information
 
 To request that information is added or updated, please visit the [Issues page](https://github.com/MelSumner/womeninstem/issues) and interact with the "New Issue" link (it looks like a button).
@@ -36,7 +31,9 @@ Please choose the one that works best for you.
 
 Please fill in as much information as you are able.
 
+## Expectations
+
+1. Submit information that can be verified.
+2. Be kind.
+
 Thank you for contributing!
-
-![image](https://github.com/user-attachments/assets/688d9985-38f4-4455-870f-751b7e165d60)
-
