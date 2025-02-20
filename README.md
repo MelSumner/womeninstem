@@ -8,7 +8,7 @@ This repository will be an open source project where anyone can contribute infor
 
 ## Ways to contribute
 
-There are many ways to contribute to an open source project. 
+There are many ways to contribute to this open source project. 
 
 - Design
 - Code
