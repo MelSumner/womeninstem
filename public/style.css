@@ -1,14 +1,13 @@
 @font-face {
-  font-family: 'YoungSerif';
-  src: url('/public/fonts/YoungSerif-Regular.woff2') format('woff2'),
-  url('/public/fonts/YoungSerif-Regular.woff') format('woff');
-  font-weight: normal;
+  font-family: 'Citywide Variable';
+  src: url('/public/fonts/Citywide-Variable-0.080.woff2') format('woff2'),
+  font-weight: 100 900;
   font-style: normal;
 }
 
 :root {
-  --font-heading: 'YoungSerif', system-ui;
-  --font-body: 'YoungSerif', system-ui;
+  --font-heading: 'Citywide Variable', system-ui;
+  --font-body: system-ui;
   --color-primary: #1d5175;
   --color-complementary: #fcf8f1;
 }
@@ -81,6 +80,7 @@ footer a:visited {
 
 h1, h2, h3 {
   font-family: var(--font-heading);
+  font-optical-sizing: auto;
   padding: 0;
   line-height: 1;
   letter-spacing: 1px; /* maybe idk */
@@ -91,10 +91,19 @@ h1, h2, h3 {
   }
 }
 
+h1 {
+  font-variation-settings: "wght" 500;
+}
+
+h2 {
+  font-variation-settings: "wght" 600;
+  letter-spacing: 2px;
+}
+
 .underline-wave {
   text-decoration: underline;
   text-decoration-color: #ff6347; /* Tomato */
   text-decoration-style: wavy;
   text-decoration-thickness: 3px;
-  text-underline-offset: 7px; /* the descenders were cutting it off */
+  text-underline-offset: 4px;
 }
