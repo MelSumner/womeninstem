@@ -8,7 +8,7 @@
 :root {
   --font-heading: 'Citywide Variable', system-ui;
   --font-body: system-ui;
-  --color-primary: #1d5175;
+  --color-primary: rgb(27, 69, 98);
   --color-complementary: rgb(255, 254, 251);
 }
 
