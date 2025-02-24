@@ -9,7 +9,7 @@
   --font-heading: 'Citywide Variable', system-ui;
   --font-body: system-ui;
   --color-primary: #1d5175;
-  --color-complementary: #fcf8f1;
+  --color-complementary: rgb(255, 254, 251);
 }
 
 *, *::after, *::before { box-sizing: border-box; } 
