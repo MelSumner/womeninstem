@@ -466,3 +466,7 @@ h2 {
   text-decoration-thickness: 3px;
   text-underline-offset: 4px;
 }
+
+.intro {
+  font-size: 1.5rem;
+}
